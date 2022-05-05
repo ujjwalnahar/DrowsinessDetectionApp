@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SettingActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volume"
+        android:textSize="20sp"
+        android:layout_margin="8dp"
+        />
+
+    <SeekBar
+        android:id="@+id/volumeSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alert Sounds"
+        android:textSize="20sp"
+        android:layout_margin="8dp"
+        />
+    <RadioGroup
+        android:id="@+id/tunes_radio_group"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton android:id="@+id/radio_1"
+            android:enabled="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alert 1"
+            />
+        <RadioButton android:id="@+id/radio_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alert 2"
+            />
+        <RadioButton android:id="@+id/radio_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alert 3"
+            />
+        <RadioButton android:id="@+id/radio_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alert 4"
+            />
+        <RadioButton android:id="@+id/radio_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alert 5"
+            />
+        <RadioButton android:id="@+id/radio_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alert 6"
+            />
+        <RadioButton android:id="@+id/radio_7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alert 7"
+            />
+        <RadioButton android:id="@+id/radio_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alert 8"
+           />
+    </RadioGroup>
+
+
+</LinearLayout>
